@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.img {
+    display: inline-block;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* ===== header start ===== */
+.header {
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.15);
+    width: 100vw;
+    padding: 15px 0px;
+    margin-bottom: 107px;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-left-box {
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+}
+
+.header-left-box-list {
+    display: flex;
+    gap: 0 22px;
+}
+
+.header-left-box-item a {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-right-box {
+    display: flex;
+    align-items: center;
+    gap: 0 40px;
+}
+
+.header-right-box-list {
+    display: flex;
+    gap: 0 30px;
+}
+
+.header-right-box-item a {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-button {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 32px;
+    background: transparent;
+    border-radius: 48px;
+    border: 1px solid #000;
+}
+
+/* ===== header end ===== */
+
+/* ===== hero start ===== */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 122px;
+}
+
+.hero-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-box2 {
+    display: flex;
+    align-items: center;
+    gap: 0 7px;
+    margin-bottom: 31px;
+}
+
+.hero-box2-text {
+    width: 250px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.hero-title,
+.hero-subtitle {
+    color: #222;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50.4px;
+}
+
+.hero-subtitle {
+    margin-bottom: 23px;
+}
+
+.hero-text {
+    margin-bottom: 13px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    width: 400px;
+}
+
+.hero-link+.hero-link {
+    margin-top: 20px;
+}
+
+/* ====== hero end ===== */
+
+/* ===== amenities-section start ===== */
+.amenities-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.amenities-title {
+    width: 379px;
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+    margin-bottom: 22px;
+}
+
+.amenities-text1 {
+    margin-bottom: 12px;
+    width: 439px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+}
+
+.amenities-text2 {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    width: 445px;
+}
+
+/* ===== amenities-section end ===== */
+
+/* ===== care-section start ===== */
+.care-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 205px;
+}
+
+.care-title {
+    width: 157px;
+    margin-bottom: 22px;
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.care-text1 {
+    width: 451px;
+    margin-bottom: 12px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+}
+
+.care-text2 {
+    width: 366px;
+    margin-bottom: 17px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+}
+
+.care-text3 {
+    width: 447.5px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+}
+
+/* ===== care-section end ===== */
+
+/* ===== cashback-section start ===== */
+.cashback-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 8px 16px;
+    margin-bottom: 47px;
+}
+
+.cashback-title {
+    color: #222;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.cashback-text {
+    margin: 0 auto;
+    width: 584px;
+    color: #222;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    margin-bottom: 42px;
+}
+
+.cashback-button {
+    padding: 12px 32px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 48px;
+    border: 1px solid #000;
+    background: #FFF;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.cashback-list {
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px 42px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 107px;
+    width: 100%;
+}
+
+.cashback-item {
+    height: 70px;
+    width: 193px;
+}
+
+/* ===== cashback-section end ===== */
+
+/* ===== shopping-mastercard-section start ===== */
+.shopping-mastercard-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 116px;
+}
+
+.shopping-mastercard-titles-box {
+    display: flex;
+    align-items: flex-start;
+    width: 458px;
+    margin-bottom: 22px;
+}
+
+.shopping-mastercard-title-2 {
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.shopping-mastercard-title-3 {
+    color: #222;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    margin-bottom: 22px;
+}
+
+.shopping-mastercard-text {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    width: 475px;
+    margin-bottom: 28px;
+}
+
+.shopping-mastercard-links-box {
+    display: flex;
+    gap: 0 20px;
+}
+
+/* ===== shopping-mastercard-section end ===== */
+
+/* ===== shopping-with-no-fees-section start ===== */
+.shopping-with-no-fees-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 149px;
+}
+
+.shopping-with-no-fees-title {
+    width: 379px;
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+    margin-bottom: 22px;
+}
+
+.shopping-with-no-fees-text1 {
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+    width: 478px;
+    margin-bottom: 10px;
+}
+
+.shopping-with-no-fees-text2 {
+    width: 395px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+}
+
+/* ===== shopping-with-no-fees-section end ===== */
+
+/* ===== many-currencies-section start ===== */
+.many-currencies-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 149px;
+}
+
+.many-currencies-title {
+    width: 374px;
+    margin-bottom: 19px;
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.many-currencies-text1 {
+    width: 475px;
+    margin-bottom: 15px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+}
+
+.many-currencies-text2 {
+    width: 465px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+}
+
+/* ===== many-currencies-section end ===== */
+
+/* ===== easy-account-creation-section start ===== */
+.easy-account-creation-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 87px;
+}
+
+.easy-account-creation-title {
+    width: 277px;
+    margin-bottom: 22px;
+    color: #222;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.easy-account-creation-text1 {
+    width: 433px;
+    margin-bottom: 12px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+}
+
+.easy-account-creation-text2 {
+    width: 470px;
+    margin-bottom: 32px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.92px;
+}
+
+.easy-account-creation-link1 {
+    margin-right: 20px;
+}
+
+a img {
+    cursor: pointer;
+}
+
+/* ===== easy-account-creation-section end ===== */
+
+hr {
+    width: 1200px;
+    height: 1px;
+    background-color: #CBD6E2;
+    margin-bottom: 22px;
+    margin: 0 auto;
+}
+
+/* ===== footer start ===== */
+.footer {
+    padding: 47px 45px 65px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 9.6px;
+    margin-bottom: 55px;
+}
+
+.footer-list li {
+    width: 192px;
+}
+
+.footer-list h4 {
+    color: #222;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 33px;
+}
+
+.footer-item-text {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-item-text+.footer-item-text {
+    margin-top: 15px;
+}
+
+.footer-item-img-box {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000000;
+}
+
+.footer-left-img {
+    margin-bottom: 20px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 188px;
+}
+
+.footer-box-text {
+    width: 836px;
+    color: #AAA;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px;
+}
+
+/* ===== footer end ===== */
